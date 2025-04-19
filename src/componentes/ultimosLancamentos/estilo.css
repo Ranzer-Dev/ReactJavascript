@@ -1,0 +1,10 @@
+.lancamentos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: aliceblue;
+}
