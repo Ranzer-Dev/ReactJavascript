@@ -1,20 +1,22 @@
-import './App.css';
-import Logo from './componentes/logo/index.js'
-import OpcoesHeader from './componentes/opcoesHeader/index.js'
-import Icones from './componentes/icones/index.js'
-import Pesquisa from './componentes/pesquisa/index.js';
-import UltimosLancamentos from './componentes/ultimosLancamentos/index.js';
+import Header from './componentes/Header'
+import Pesquisa from './componentes/Pesquisa'
+import UltimosLancamentos from './componentes/UltimosLancamentos'
+import styled from 'styled-components'
 
-export default function App() {
+const AppContainer = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg,#002F52 35%,#326589 165%);
+`
+
+function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <Logo/>
-        <OpcoesHeader/>
-        <Icones/>
-      </header>
-      <Pesquisa/>
-      <UltimosLancamentos/>
-    </div>
+    <AppContainer>
+      <Header />
+      <Pesquisa />
+      <UltimosLancamentos />
+    </AppContainer>
   );
 }
+
+export default App
