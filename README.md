@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# React: Crie sua Primeira Página Fullstack - Alura 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém os arquivos desenvolvidos durante o curso **"React: Crie sua Primeira Página Fullstack"**, oferecido pela [Alura](https://www.alura.com.br). O projeto desenvolvido foi o **Alura Books**, uma aplicação web focada na criação de interfaces com React.
 
-## Available Scripts
+## 🧠 O que foi aprendido
 
-In the project directory, you can run:
+Durante o curso, exploramos diversos conceitos fundamentais do desenvolvimento com React. Aqui está um resumo do conteúdo aprendido:
 
-### `npm start`
+### 📚 Fundamentos do React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- O que é React, sua origem e por que ele é tão utilizado no desenvolvimento frontend moderno.
+- Criação de um projeto React do zero, execução local e estrutura inicial do projeto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🧩 Componentes React
 
-### `npm test`
+- Criação e modificação de componentes React.
+- Desenvolvimento do componente `Header` da aplicação Alura Books.
+- Reutilização de componentes com **props**, tornando o código mais limpo e reaproveitável.
+- Criação de componentes genéricos para maior flexibilidade e qualidade de código.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎨 Estilização
 
-### `npm run build`
+- Estilização de componentes utilizando CSS tradicional.
+- Uso de **styled-components** para escrever estilos diretamente no JavaScript.
+- Substituição dos arquivos CSS por styled-components para maior organização.
+- Criação de estilos globais com styled-components, definindo padrões de estilo para toda a aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔁 Lógica e Dinamismo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Uso de loops para evitar repetições e deixar o código mais dinâmico.
+- Criação de **estados com React (useState)** para armazenar e modificar dados dentro dos componentes.
+- Uso de eventos como `onBlur` para atualizar o estado com base na interação do usuário.
+- Atualização de componentes com base nos estados, permitindo uma interface mais interativa e responsiva.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 Conclusão
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse curso foi uma excelente introdução prática ao React, ensinando desde os primeiros passos até técnicas mais modernas de organização e estilização de componentes. Agora, com a base sólida em React, fica muito mais fácil seguir explorando o desenvolvimento frontend moderno com qualidade.
